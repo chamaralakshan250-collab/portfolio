@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamara | Creative Software Engineer</title>
+    <meta name="description" content="Professional portfolio of a Software Engineer, Full Stack Developer, and Mobile App Developer. Explore my projects, skills, and experience.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=15">
+</head>
+<body>
+    <!-- Background Gradient Accents -->
+    <div class="blob-c" id="blobContainer">
+        <div class="blob-1" id="blob1"></div>
+        <div class="blob-2" id="blob2"></div>
+        <!-- Theme Matching Ambient Floating Orbs -->
+        <div class="floating-orbs-container">
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+            <div class="floating-orb orb-4"></div>
+        </div>
+        <!-- Sparkles Container -->
+        <div class="sparkles-container" id="sparklesContainer"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Chamara<span>.</span>dev</a>
+            
+            <nav class="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-buttons">
+                <a href="#contact" class="btn btn-sm btn-glow">Hire Me</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-close" id="mobileClose" aria-label="Close Menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <div style="margin-top: 2rem; padding: 0 2rem;">
+            <a href="#contact" class="btn btn-glow" style="width: 100%; text-align: center;">Hire Me</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="welcome-badge"><i class="fa-solid fa-sparkles"></i> Welcome to my space</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Chamara</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Building high-performance web applications, robust backends, and beautiful, native mobile experiences. Turning ideas into pixel-perfect interactive reality.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary btn-glow">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="assets/cv.pdf" class="btn btn-outline" download><i class="fa-solid fa-download"></i> Download CV</a>
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-glow-wrapper">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-container">
+                            <img src="assets/profile.png?v=2" alt="Chamara's Avatar" class="hero-avatar">
+                            <div class="avatar-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">My Story & Drive</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am a passionate Software Engineer and Full Stack Developer with a knack for building dynamic, modern solutions. With a deep foundation in both frontend design principles and backend system architecture, I strive to write clean, optimized, and maintainable code.
+                        </p>
+                        <p>
+                            My development methodology focuses heavily on clean user interfaces, solid security, scalable performance, and seamless user experiences across web and mobile platforms.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/chamaralakshan250-collab" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com/in/chamara-lakshan-0794603b0" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:chamaralakshan911@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                        <a href="assets/cv.pdf" class="btn btn-primary btn-glow" style="margin-top: 2rem;" download><i class="fa-solid fa-download"></i> Download CV</a>
+                    </div>
+                    <div class="about-visual">
+                        <div class="visual-wrapper glass-card">
+                            <div class="illustration-container">
+                                <svg class="dev-svg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Glowing background blurred circles -->
+                                    <circle cx="250" cy="250" r="120" fill="url(#svgGlow)" opacity="0.3" filter="blur(30px)"/>
+                                    
+                                    <!-- Definitions for gradients -->
+                                    <defs>
+                                        <radialGradient id="svgGlow" cx="50%" cy="50%" r="50%">
+                                            <stop offset="0%" stop-color="var(--accent-cyan)" />
+                                            <stop offset="100%" stop-color="rgba(11, 17, 30, 0)" />
+                                        </radialGradient>
+                                        <linearGradient id="cyanGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="var(--accent-cyan)" />
+                                            <stop offset="100%" stop-color="var(--primary-violet)" />
+                                        </linearGradient>
+                                        <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="rgba(20, 28, 45, 0.7)" />
+                                            <stop offset="100%" stop-color="rgba(11, 17, 30, 0.4)" />
+                                        </radialGradient>
+                                    </defs>
+                                    
+                                    <!-- Floating Dashboard Card 1 (Code Editor Mockup) -->
+                                    <g class="float-card float-card-1" transform="translate(40, 80)">
+                                        <rect width="260" height="160" rx="12" fill="url(#panelGrad)" stroke="rgba(var(--accent-cyan-rgb), 0.2)" stroke-width="1.5"/>
+                                        <!-- Window header -->
+                                        <circle cx="20" cy="18" r="4" fill="#ef4444" />
+                                        <circle cx="32" cy="18" r="4" fill="#eab308" />
+                                        <circle cx="44" cy="18" r="4" fill="#22c55e" />
+                                        <line x1="65" y1="18" x2="120" y2="18" stroke="rgba(255,255,255,0.15)" stroke-width="2" stroke-linecap="round"/>
+                                        
+                                        <!-- Editor lines -->
+                                        <!-- Code line 1 -->
+                                        <rect x="20" y="40" width="80" height="6" rx="3" fill="var(--accent-cyan)" opacity="0.8"/>
+                                        <!-- Code line 2 -->
+                                        <rect x="20" y="55" width="140" height="6" rx="3" fill="#94a3b8" opacity="0.5"/>
+                                        <rect x="165" y="55" width="40" height="6" rx="3" fill="var(--primary-violet)" opacity="0.8"/>
+                                        <!-- Code line 3 -->
+                                        <rect x="40" y="70" width="110" height="6" rx="3" fill="var(--primary-violet)" opacity="0.8"/>
+                                        <!-- Code line 4 (nested) -->
+                                        <rect x="60" y="85" width="150" height="6" rx="3" fill="#94a3b8" opacity="0.5"/>
+                                        <rect x="60" y="100" width="90" height="6" rx="3" fill="var(--accent-cyan)" opacity="0.8"/>
+                                        <!-- Code line 5 -->
+                                        <rect x="40" y="115" width="60" height="6" rx="3" fill="#f43f5e" opacity="0.7"/>
+                                        <!-- Code line 6 -->
+                                        <rect x="20" y="130" width="40" height="6" rx="3" fill="var(--accent-cyan)" opacity="0.8"/>
+                                    </g>
+
+                                    <!-- Floating Dashboard Card 2 (Analytics/Stats Graph Mockup) -->
+                                    <g class="float-card float-card-2" transform="translate(180, 240)">
+                                        <rect width="260" height="170" rx="12" fill="url(#panelGrad)" stroke="rgba(var(--primary-violet-rgb), 0.2)" stroke-width="1.5"/>
+                                        <!-- Window header -->
+                                        <circle cx="20" cy="18" r="4" fill="rgba(255,255,255,0.3)" />
+                                        <circle cx="32" cy="18" r="4" fill="rgba(255,255,255,0.3)" />
+                                        <circle cx="44" cy="18" r="4" fill="rgba(255,255,255,0.3)" />
+                                        <line x1="65" y1="18" x2="160" y2="18" stroke="rgba(255,255,255,0.15)" stroke-width="2" stroke-linecap="round"/>
+
+                                        <!-- Grid Lines -->
+                                        <line x1="20" y1="50" x2="240" y2="50" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                                        <line x1="20" y1="80" x2="240" y2="80" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                                        <line x1="20" y1="110" x2="240" y2="110" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                                        <line x1="20" y1="140" x2="240" y2="140" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+                                        <!-- Wave Graph Path (Cyan) -->
+                                        <path d="M 20,130 C 50,110 80,140 110,80 C 140,20 170,120 200,90 C 215,75 230,60 240,55" fill="none" stroke="var(--accent-cyan)" stroke-width="3" stroke-linecap="round"/>
+                                        
+                                        <!-- Bar Graph columns (Green) -->
+                                        <rect x="35" y="110" width="10" height="30" rx="2" fill="var(--primary-violet)" opacity="0.3"/>
+                                        <rect x="75" y="90" width="10" height="50" rx="2" fill="var(--primary-violet)" opacity="0.3"/>
+                                        <rect x="115" y="105" width="10" height="35" rx="2" fill="var(--primary-violet)" opacity="0.3"/>
+                                        <rect x="155" y="70" width="10" height="70" rx="2" fill="var(--primary-violet)" opacity="0.3"/>
+                                        <rect x="195" y="85" width="10" height="55" rx="2" fill="var(--primary-violet)" opacity="0.8"/>
+                                    </g>
+                                    
+                                    <!-- Decorative Tech Elements -->
+                                    <!-- Rotating Gear/Orb 1 -->
+                                    <g class="spin-clockwise" transform="translate(100, 360)">
+                                        <circle cx="0" cy="0" r="30" fill="none" stroke="rgba(var(--accent-cyan-rgb), 0.2)" stroke-width="2" stroke-dasharray="10 5"/>
+                                        <circle cx="0" cy="0" r="18" fill="none" stroke="rgba(var(--primary-violet-rgb), 0.4)" stroke-width="1.5"/>
+                                        <circle cx="0" cy="0" r="5" fill="var(--accent-cyan)"/>
+                                    </g>
+                                    
+                                    <!-- Rotating Gear/Orb 2 -->
+                                    <g class="spin-counter-clockwise" transform="translate(400, 150)">
+                                        <circle cx="0" cy="0" r="45" fill="none" stroke="rgba(var(--primary-violet-rgb), 0.15)" stroke-width="2" stroke-dasharray="8 4"/>
+                                        <circle cx="0" cy="0" r="28" fill="none" stroke="rgba(var(--accent-cyan-rgb), 0.3)" stroke-width="1"/>
+                                        <line x1="-28" y1="0" x2="28" y2="0" stroke="rgba(var(--accent-cyan-rgb), 0.3)" stroke-width="1"/>
+                                        <line x1="0" y1="-28" x2="0" y2="28" stroke="rgba(var(--accent-cyan-rgb), 0.3)" stroke-width="1"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">My Expertise</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-terminal text-gradient"></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Java & C#</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python & PHP</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++ & OOP Concepts</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web & Frontend -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-laptop-code text-gradient"></i>
+                        </div>
+                        <h3>Web & Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React & Next.js</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>TypeScript & JavaScript</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & APIs -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-server text-gradient"></i>
+                        </div>
+                        <h3>Backend & APIs</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Spring Boot (Java)</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 82%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js & Express</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>.NET & RESTful APIs</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile App Dev -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-mobile-screen-button text-gradient"></i>
+                        </div>
+                        <h3>Mobile App Dev</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React Native</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Firebase Architecture</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 83%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Cross-platform App Design</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Cloud -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-database text-gradient"></i>
+                        </div>
+                        <h3>Databases & Cloud</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>MySQL & MongoDB</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Relational DB Design</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>AWS & Firebase DB</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 78%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Methodologies -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-screwdriver-wrench text-gradient"></i>
+                        </div>
+                        <h3>Tools & Agile</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Figma & Git (GitHub)</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Agile (Jira & monday.com)</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>CI/CD Basics & Unit Testing</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Showcase</span>
+                    <h2 class="section-title">Recent Work</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Projects Filters -->
+                <div class="projects-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="backend">Backend & AI</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 2 -->
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="assets/busmate_showcase.png" alt="BusMate App Showcase" class="project-card-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Mobile Apps</span>
+                            <h3>BusMate App</h3>
+                            <p>A high-end, real-time public transit tracking and fleet management mobile application with live location updates, routing, and ticket price inquiries.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Expo</span>
+                                <span>Leaflet Map</span>
+                                <span>NodeJS</span>
+                                <span>Express</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener" class="project-link" aria-label="GitHub Source"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link busmate-demo-trigger" aria-label="Interactive Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Project 5 -->
+                    <div class="project-card glass-card" data-category="web">
+                        <div class="project-image">
+                            <img src="assets/assignment_showcase.png" alt="VAU Assignment System Showcase" class="project-card-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Web Dev</span>
+                            <h3>Online Assignment Submission & Evaluation System</h3>
+                            <p>A secure, role-based Online Assignment Submission & Evaluation System built with PHP and MySQL for the University of Vavuniya.</p>
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap 5</span>
+                                <span>Vanilla JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener" class="project-link" aria-label="GitHub Source"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link assignment-demo-trigger" aria-label="Interactive Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GemMate Mobile App -->
+                    <div class="project-card glass-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="assets/gemmate_showcase.png" alt="GemMate Mobile App Showcase" class="project-card-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Mobile Apps</span>
+                            <h3>GemMate Mobile App</h3>
+                            <p>Developed GemMate, a premium cross-platform mobile gemstone marketplace and certificate-verification app. Allows secure trading, authenticity verification via experts, and real-time chat.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Expo</span>
+                                <span>Firebase</span>
+                                <span>WebSockets</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener" class="project-link" aria-label="GitHub Source"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link gemmate-demo-trigger" aria-label="Interactive Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hospital Management System -->
+                    <div class="project-card glass-card" data-category="backend">
+                        <div class="project-image">
+                            <img src="assets/hospital_showcase.png" alt="Hospital Management System Showcase" class="project-card-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Backend & AI</span>
+                            <h3>Hospital Management System</h3>
+                            <p>Tailored for Life Care Hospital, Vavuniya to digitalize clinical workflows. Includes patient registration, medical history, appointment scheduling, and automated billing modules.</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>.NET Framework</span>
+                                <span>MS SQL Server</span>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener" class="project-link" aria-label="GitHub Source"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link hospital-demo-trigger" aria-label="Interactive Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info-panel glass-card">
+                        <h3>Contact Details</h3>
+                        <p>Feel free to reach out to me for freelance projects, collaborations, full-time offers, or just to say hello.</p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-text">
+                                    <span>Email Me</span>
+                                    <a href="mailto:chamaralakshan911@gmail.com">chamaralakshan911@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="detail-text">
+                                    <span>Call / WhatsApp</span>
+                                    <a href="tel:+94760031911">076 003 1911</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="detail-text">
+                                    <span>Location</span>
+                                    <span>Rathnapura, Sri Lanka</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-briefcase"></i></div>
+                                <div class="detail-text">
+                                    <span>Freelance Availability</span>
+                                    <span>Available immediately</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form glass-card" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" required placeholder=" ">
+                            <label for="name" class="form-label">Full Name</label>
+                            <span class="error-msg" id="nameError">Name is required</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" required placeholder=" ">
+                            <label for="email" class="form-label">Email Address</label>
+                            <span class="error-msg" id="emailError">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" class="form-input" required placeholder=" ">
+                            <label for="subject" class="form-label">Subject</label>
+                            <span class="error-msg" id="subjectError">Subject is required</span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-input form-textarea" required placeholder=" " rows="5"></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                            <span class="error-msg" id="messageError">Message is required</span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-glow" style="width: 100%;">
+                            Send Message <i class="fa-solid fa-paper-plane" style="margin-left: 0.5rem;"></i>
+                        </button>
+
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Chamara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BusMate Interactive Simulator Modal -->
+    <div class="busmate-modal" id="busmateModal" aria-hidden="true" role="dialog">
+        <div class="busmate-modal-backdrop" id="busmateModalBackdrop"></div>
+        <div class="busmate-modal-content glass-card">
+            <button class="busmate-modal-close" id="busmateModalClose" aria-label="Close Simulator">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="simulator-grid">
+                <!-- Left: Interactive Mobile Simulator -->
+                <div class="simulator-phone-wrapper">
+                    <div class="phone-mockup">
+                        <!-- Speaker & Camera Bezel (Dynamic Island) -->
+                        <div class="phone-dynamic-island"></div>
+                        <div class="phone-speaker"></div>
+                        
+                        <!-- Internal Screen -->
+                        <div class="phone-screen">
+                            <!-- Status Bar -->
+                            <div class="phone-status-bar">
+                                <span class="phone-time" id="phoneTime">08:36 PM</span>
+                                <div class="phone-status-icons">
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-battery-three-quarters"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 1: LOGIN -->
+                            <div class="sim-screen sim-screen-login active" id="simScreenLogin">
+                                <div class="sim-logo-container">
+                                    <div class="sim-logo-card">
+                                        <svg class="sim-logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                            <!-- Styled Bus & Path SVG -->
+                                            <defs>
+                                                <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                    <stop offset="0%" stop-color="var(--accent-cyan)" />
+                                                    <stop offset="100%" stop-color="var(--primary-violet)" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M20,60 C20,60 30,35 55,35 C70,35 80,45 80,55 C80,65 70,75 55,75 L30,75 C25,75 20,70 20,65 Z" fill="none" stroke="url(#logoGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <circle cx="35" cy="75" r="7" fill="url(#logoGrad)" />
+                                            <circle cx="65" cy="75" r="7" fill="url(#logoGrad)" />
+                                            <rect x="25" y="48" width="12" height="10" rx="2" fill="url(#logoGrad)" opacity="0.8"/>
+                                            <rect x="42" y="48" width="12" height="10" rx="2" fill="url(#logoGrad)" opacity="0.8"/>
+                                            <rect x="59" y="48" width="12" height="10" rx="2" fill="url(#logoGrad)" opacity="0.8"/>
+                                        </svg>
+                                        <span class="sim-logo-text">BusMate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="sim-login-content">
+                                    <h2 class="sim-login-title">Drive into <span class="sim-text-gradient">Adventure</span></h2>
+                                    <p class="sim-login-subtitle">Every journey is an adventure waiting to be explored</p>
+                                    
+                                    <div class="sim-login-form">
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-envelope"></i></span>
+                                            <input type="email" id="simEmail" class="sim-input" placeholder="Email Address" value="driver@busmate.lk">
+                                        </div>
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-lock"></i></span>
+                                            <input type="password" id="simPassword" class="sim-input" placeholder="Password" value="driverpass123">
+                                            <span class="sim-password-toggle" id="simPasswordToggle"><i class="fa-solid fa-eye-slash"></i></span>
+                                        </div>
+                                        
+                                        <button class="sim-btn sim-btn-primary" id="simBtnLogin">
+                                            <span>Get Started</span>
+                                            <div class="sim-btn-arrow-circle">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="sim-login-footer">
+                                        Don't have an account? <span class="sim-link">Sign Up</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 2: ADD NEW BUS -->
+                            <div class="sim-screen sim-screen-add-bus" id="simScreenAddBus">
+                                <div class="sim-header">
+                                    <button class="sim-header-back" id="simBackToLogin" aria-label="Go Back">
+                                        <i class="fa-solid fa-chevron-left"></i>
+                                    </button>
+                                    <h3 class="sim-header-title">Add New Bus</h3>
+                                    <div style="width: 24px;"></div> <!-- spacer -->
+                                </div>
+                                
+                                <div class="sim-screen-body">
+                                    <div class="sim-bus-image-wrapper">
+                                        <img src="assets/bus.jpg" alt="Bus Preview" class="sim-bus-img">
+                                    </div>
+                                    
+                                    <div class="sim-section-card">
+                                        <h4 class="sim-card-title">Bus Details</h4>
+                                        
+                                        <div class="sim-form-row">
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Bus Name</label>
+                                                <input type="text" id="simBusName" class="sim-field-input" value="Nirosha Express">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="sim-form-row col-2">
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Bus Number</label>
+                                                <input type="text" id="simBusNumber" class="sim-field-input" value="ND-9170">
+                                            </div>
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Seats</label>
+                                                <input type="number" id="simBusSeats" class="sim-field-input" value="54">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="sim-form-row">
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Route (From - To)</label>
+                                                <input type="text" id="simBusRoute" class="sim-field-input" value="Vavuniya - Colombo">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="sim-form-row col-3">
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Route No.</label>
+                                                <input type="text" id="simBusRouteNo" class="sim-field-input" value="15">
+                                            </div>
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Distance (km)</label>
+                                                <input type="number" id="simBusDistance" class="sim-field-input" value="286">
+                                            </div>
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Duration</label>
+                                                <input type="text" id="simBusDuration" class="sim-field-input" value="7h">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="sim-form-row">
+                                            <div class="sim-field-group">
+                                                <label class="sim-field-label">Ticket Price (LKR)</label>
+                                                <input type="number" id="simBusPrice" class="sim-field-input" value="1270">
+                                            </div>
+                                        </div>
+                                        
+                                        <button class="sim-btn sim-btn-submit" id="simBtnAddBus">
+                                            <span>Add Bus & Start Live Tracking</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bottom Navigation Tab Bar -->
+                                <div class="sim-bottom-nav">
+                                    <button class="sim-nav-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <span>Dashboard</span>
+                                    </button>
+                                    <button class="sim-nav-item active">
+                                        <i class="fa-solid fa-bus"></i>
+                                        <span>Add New Bus</span>
+                                    </button>
+                                    <button class="sim-nav-item">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>My Profile</span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 3: LIVE TRACKING -->
+                            <div class="sim-screen sim-screen-tracking" id="simScreenTracking">
+                                <div class="sim-header">
+                                    <button class="sim-header-back" id="simBackToAddBus" aria-label="Go Back">
+                                        <i class="fa-solid fa-chevron-left"></i>
+                                    </button>
+                                    <h3 class="sim-header-title">Live Tracking</h3>
+                                    <div style="width: 24px;"></div> <!-- spacer -->
+                                </div>
+                                
+                                <div class="sim-tracking-map-wrapper">
+                                    <div class="sim-map-zoom">
+                                        <button class="sim-zoom-btn" id="simZoomIn">+</button>
+                                        <button class="sim-zoom-btn" id="simZoomOut">-</button>
+                                    </div>
+                                    
+                                    <!-- Customized SVG topographic style vector map -->
+                                    <div class="sim-map-canvas" id="simMapCanvas">
+                                        <svg class="sim-map-svg" viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg">
+                                            <!-- Background land grid -->
+                                            <rect width="320" height="400" fill="#1b211d" />
+                                            <!-- Forests or green spaces -->
+                                            <path d="M10,100 C30,90 40,120 60,130 C80,140 70,180 50,190 C30,200 10,180 10,140 Z" fill="#141a15" opacity="0.7" />
+                                            <path d="M250,50 C280,30 300,60 310,100 C320,140 290,160 270,150 C250,140 240,80 250,50 Z" fill="#141a15" opacity="0.7" />
+                                            <path d="M150,280 C180,270 200,310 210,340 C220,370 180,390 160,380 C140,370 130,310 150,280 Z" fill="#141a15" opacity="0.7" />
+                                            
+                                            <!-- Pampeimadu Tank (Blue Reservoir) -->
+                                            <path d="M180,60 C210,50 250,45 260,80 C270,110 240,130 220,120 C200,110 190,95 180,90 C170,85 160,70 180,60 Z" fill="#0f2030" />
+                                            <text x="220" y="80" font-family="'Inter', sans-serif" font-size="7" fill="#38bdf8" opacity="0.6" font-weight="600" text-anchor="middle">Pampeimadu</text>
+                                            <text x="220" y="88" font-family="'Inter', sans-serif" font-size="7" fill="#38bdf8" opacity="0.6" font-weight="600" text-anchor="middle">Tank</text>
+                                            
+                                            <!-- Minor Road lines -->
+                                            <path d="M20,60 L140,150 L170,220 L300,340" fill="none" stroke="#262d28" stroke-width="2" stroke-linecap="round" />
+                                            <path d="M280,40 L190,130 L110,250 L40,330" fill="none" stroke="#262d28" stroke-width="2" stroke-linecap="round" />
+                                            
+                                            <!-- Main highway (A9 / Vavuniya - Parayanalankulam Road in orange) -->
+                                            <!-- Let's map a smooth horizontal path that we can animate a bus along -->
+                                            <path id="highwayRoute" d="M 0,200 L 320,200" fill="none" stroke="#ca5035" stroke-width="5" stroke-linecap="round" />
+                                            <!-- Highway label -->
+                                            <text x="160" y="193" font-family="'Inter', sans-serif" font-size="7" fill="#94a3b8" font-weight="600" text-anchor="middle" opacity="0.8">Vavuniya - Parayanalankulam (A9)</text>
+                                            
+                                            <!-- SVG Bus Locator Marker -->
+                                            <g id="busMarker" transform="translate(160, 200)">
+                                                <!-- Pulse ring -->
+                                                <circle cx="0" cy="0" r="16" fill="var(--accent-cyan)" opacity="0.2">
+                                                    <animate attributeName="r" values="8;18;8" dur="2s" repeatCount="indefinite" />
+                                                    <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite" />
+                                                </circle>
+                                                <!-- Marker Pin -->
+                                                <!-- Pin body shape pointing down -->
+                                                <path d="M 0,0 C -5,-5 -8,-10 -8,-15 C -8,-20 -4,-24 0,-24 C 4,-24 8,-20 8,-15 C 8,-10 5,-5 0,0 Z" fill="var(--accent-cyan)" stroke="var(--accent-cyan)" stroke-width="1" />
+                                                <!-- Center dot inside pin -->
+                                                <circle cx="0" cy="-15" r="2.5" fill="#0b111e" />
+                                                
+                                                <!-- SVG Tooltip Group, shifted upwards -->
+                                                <g transform="translate(0, -32)">
+                                                    <!-- Tooltip box -->
+                                                    <rect x="-65" y="-14" width="130" height="18" rx="3" fill="#000000" opacity="0.9" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+                                                    <!-- Tooltip pointer triangle -->
+                                                    <polygon points="-3,4 3,4 0,7" fill="#000000" opacity="0.9" />
+                                                    <!-- Tooltip text -->
+                                                    <text id="tooltipBusName" x="0" y="-2" font-family="'Inter', sans-serif" font-size="7" fill="#ffffff" font-weight="600" text-anchor="middle">Nirosha Express - Live Location</text>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        
+                                        <!-- Attribution -->
+                                        <div class="sim-map-attribution">
+                                            <span class="attrib-flag"></span>
+                                            <span class="attrib-txt"><a href="#" class="attrib-link">Leaflet</a> | © <a href="#" class="attrib-link">OpenStreetMap</a> contributors</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="sim-tracking-status-bar">
+                                        <span class="sim-status-dot"></span>
+                                        <span class="sim-status-text">Live Tracking Started</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 4: AVAILABLE BUSES -->
+                            <div class="sim-screen sim-screen-buses" id="simScreenBuses">
+                                <div class="sim-header">
+                                    <button class="sim-header-back" id="simBusesBack" aria-label="Go Back">
+                                        <i class="fa-solid fa-chevron-left"></i>
+                                    </button>
+                                    <h3 class="sim-header-title">Select Bus</h3>
+                                    <div style="width: 24px;"></div>
+                                </div>
+                                
+                                <div class="sim-screen-body">
+                                    <div class="sim-buses-route-card">
+                                        <div class="route-back-arrow" id="simBusesSubBack"><i class="fa-solid fa-chevron-left"></i></div>
+                                        <div class="route-details">
+                                            <h4>Available Buses</h4>
+                                            <span class="route-text">Vavuniya &rarr; Colombo</span>
+                                        </div>
+                                    </div>
+                                    <div class="sim-buses-count">7 buses found</div>
+                                    
+                                    <div class="sim-buses-list">
+                                        <!-- Bus Card 1 -->
+                                        <div class="sim-bus-card" id="simBusCardNirosha">
+                                            <div class="sim-bus-card-left">
+                                                <div class="bus-icon-box"><i class="fa-solid fa-bus"></i></div>
+                                            </div>
+                                            <div class="sim-bus-card-right">
+                                                <div class="bus-card-row-1">
+                                                    <span class="bus-card-name">Nirosha Express</span>
+                                                    <span class="bus-card-status"><span class="status-dot"></span> Scheduled</span>
+                                                </div>
+                                                <span class="bus-card-plate">ND-9168</span>
+                                                <div class="bus-card-route"><i class="fa-solid fa-location-arrow"></i> Vavuniya - Colombo</div>
+                                                <div class="bus-card-meta">
+                                                    <span><i class="fa-solid fa-route"></i> Route 15</span>
+                                                    <span><i class="fa-solid fa-gauge-high"></i> 286 km</span>
+                                                    <span><i class="fa-solid fa-hourglass-half"></i> 7h</span>
+                                                </div>
+                                                <div class="bus-card-footer">
+                                                    <span class="bus-card-time"><i class="fa-regular fa-clock"></i> 02:50 PM</span>
+                                                    <span class="bus-card-price">LKR 1270</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Bus Card 2 -->
+                                        <div class="sim-bus-card" id="simBusCardRathna">
+                                            <div class="sim-bus-card-left">
+                                                <div class="bus-icon-box"><i class="fa-solid fa-bus"></i></div>
+                                            </div>
+                                            <div class="sim-bus-card-right">
+                                                <div class="bus-card-row-1">
+                                                    <span class="bus-card-name">Rathna Express</span>
+                                                    <span class="bus-card-status"><span class="status-dot"></span> Scheduled</span>
+                                                </div>
+                                                <span class="bus-card-plate">ND-6028</span>
+                                                <div class="bus-card-route"><i class="fa-solid fa-location-arrow"></i> Vavuniya - Colombo</div>
+                                                <div class="bus-card-meta">
+                                                    <span><i class="fa-solid fa-route"></i> Route 15</span>
+                                                    <span><i class="fa-solid fa-gauge-high"></i> 286 km</span>
+                                                    <span><i class="fa-solid fa-hourglass-half"></i> 7h</span>
+                                                </div>
+                                                <div class="bus-card-footer">
+                                                    <span class="bus-card-time"><i class="fa-regular fa-clock"></i> 02:00 PM</span>
+                                                    <span class="bus-card-price">LKR 1270</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Bus Card 3 -->
+                                        <div class="sim-bus-card" id="simBusCardDSG">
+                                            <div class="sim-bus-card-left">
+                                                <div class="bus-icon-box"><i class="fa-solid fa-bus"></i></div>
+                                            </div>
+                                            <div class="sim-bus-card-right">
+                                                <div class="bus-card-row-1">
+                                                    <span class="bus-card-name">DSG PVT LTD</span>
+                                                    <span class="bus-card-status"><span class="status-dot"></span> Scheduled</span>
+                                                </div>
+                                                <span class="bus-card-plate">NB-4166</span>
+                                                <div class="bus-card-route"><i class="fa-solid fa-location-arrow"></i> Vavuniya - Colombo</div>
+                                                <div class="bus-card-meta">
+                                                    <span><i class="fa-solid fa-route"></i> Route 15</span>
+                                                    <span><i class="fa-solid fa-gauge-high"></i> 286 km</span>
+                                                    <span><i class="fa-solid fa-hourglass-half"></i> 7h</span>
+                                                </div>
+                                                <div class="bus-card-footer">
+                                                    <span class="bus-card-time"><i class="fa-regular fa-clock"></i> 04:50 PM</span>
+                                                    <span class="bus-card-price">LKR 1270</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 5: CHOOSE SEATS -->
+                            <div class="sim-screen sim-screen-seats" id="simScreenSeats">
+                                <div class="sim-header">
+                                    <button class="sim-header-back" id="simSeatsBack" aria-label="Go Back">
+                                        <i class="fa-solid fa-chevron-left"></i>
+                                    </button>
+                                    <h3 class="sim-header-title">Choose Seats</h3>
+                                    <div style="width: 24px;"></div>
+                                </div>
+                                
+                                <div class="sim-screen-body">
+                                    <div class="sim-seats-section-header">
+                                        <div class="seats-back-arrow" id="simSeatsSubBack"><i class="fa-solid fa-chevron-left"></i></div>
+                                        <div class="seats-header-details">
+                                            <h4>Select Seats</h4>
+                                            <span><i class="fa-solid fa-bus-simple"></i> Front of Bus</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="sim-seat-grid-container">
+                                        <div class="sim-seat-grid" id="simSeatGrid">
+                                            <!-- Dynamically populated 1-35 seats -->
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="sim-seat-legend">
+                                        <div class="legend-item"><span class="legend-box available"></span> <span>Available</span></div>
+                                        <div class="legend-item"><span class="legend-box selected"></span> <span>Selected</span></div>
+                                        <div class="legend-item"><span class="legend-box booked"></span> <span>Booked</span></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="sim-seats-bottom-bar">
+                                    <div class="seats-total-info">
+                                        <span id="simSeatsSelectedCount">0 Seat(s)</span>
+                                        <span id="simSeatsTotalPrice" class="price-val">LKR 0</span>
+                                    </div>
+                                    <button class="sim-seats-btn-continue" id="simSeatsBtnContinue">
+                                        <span>Continue</span> <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 6: SEAT STATUS -->
+                            <div class="sim-screen sim-screen-status" id="simScreenStatus">
+                                <div class="sim-status-header">
+                                    <h3 class="sim-header-title">Seat Status</h3>
+                                    <button class="sim-btn-clear-all" id="simStatusBtnClearAll">
+                                        <i class="fa-solid fa-rotate-left"></i> Clear All
+                                    </button>
+                                </div>
+                                
+                                <div class="sim-screen-body">
+                                    <div class="sim-status-legend">
+                                        <div class="legend-item"><span class="legend-box status-available"></span> <span>Available</span></div>
+                                        <div class="legend-item"><span class="legend-box status-booked"></span> <span>Booked</span></div>
+                                    </div>
+                                    
+                                    <div class="sim-status-grid-container">
+                                        <div class="sim-status-grid" id="simStatusGrid">
+                                            <!-- Dynamically populated 1-36 seats -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="sim-bottom-nav">
+                                    <button class="sim-nav-item active" id="simTabHome">
+                                        <i class="fa-solid fa-house"></i>
+                                        <span>Home</span>
+                                    </button>
+                                    <button class="sim-nav-item" id="simTabStatus">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <span>Seat Status</span>
+                                    </button>
+                                    <button class="sim-nav-item" id="simTabLogout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        <span>Logout</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Information & Quick Features Panel -->
+                <div class="simulator-info-panel">
+                    <div class="info-header">
+                        <span class="info-tag"><i class="fa-solid fa-circle-nodes"></i> Interactive Simulator</span>
+                        <h3>BusMate Showcase</h3>
+                        <p class="info-description">
+                            Experience the actual interface and flow of BusMate, a luxury professional transit and bus booking dashboard system. Try editing values or navigating between views!
+                        </p>
+                    </div>
+                    
+                    <div class="info-features-list">
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="feature-text">
+                                <strong>Secured Driver Portal</strong>
+                                <span>Try entering custom email addresses, toggle password visibility, and click the arrow button to authenticate.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-list-check"></i></div>
+                            <div class="feature-text">
+                                <strong>Dynamic Form Synchronization</strong>
+                                <span>Modify the Bus Name, Seat capacity, or routes on the Add Bus form. The live tracker automatically updates using your changes.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
+                            <div class="feature-text">
+                                <strong>Real-time Route Plotting</strong>
+                                <span>Simulates real-time geographic vehicle coordinates moving along Sri Lankan highway routes (e.g. Vavuniya - Colombo).</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-quick-controls">
+                        <span class="controls-label">Jump to Screen:</span>
+                        <div class="controls-buttons">
+                            <button class="btn-ctrl active" data-target="login">1. Driver Login</button>
+                            <button class="btn-ctrl" data-target="addbus">2. Add Bus Form</button>
+                            <button class="btn-ctrl" data-target="tracking">3. Live Map</button>
+                            <button class="btn-ctrl" data-target="buses">4. Available Buses</button>
+                            <button class="btn-ctrl" data-target="seats">5. Choose Seats</button>
+                            <button class="btn-ctrl" data-target="status">6. Seat Status</button>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-tech-stack">
+                        <span class="tech-label">Technology Stack</span>
+                        <div class="tech-tags">
+                            <span>React Native</span>
+                            <span>Expo SDK</span>
+                            <span>Leaflet Maps</span>
+                            <span>WebSocket / Socket.io</span>
+                            <span>NodeJS & Express</span>
+                            <span>Firebase Auth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Online Assignment Interactive Simulator Modal -->
+    <div class="assignment-modal" id="assignmentModal" aria-hidden="true" role="dialog">
+        <div class="assignment-modal-backdrop" id="assignmentModalBackdrop"></div>
+        <div class="assignment-modal-content glass-card">
+            <button class="assignment-modal-close" id="assignmentModalClose" aria-label="Close Simulator">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="simulator-grid">
+                <!-- Left: Interactive Browser Simulator -->
+                <div class="simulator-browser-wrapper">
+                    <div class="browser-mockup">
+                        <!-- Browser Header/Toolbar -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="browser-address-bar">
+                                <i class="fa-solid fa-lock" style="color: #10b981;"></i>
+                                <span id="browserAddressText">vau-portal.lk/login</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Browser Screen Content -->
+                        <div class="browser-screen">
+                            <!-- SCREEN 1: PORTAL LOGIN / SELECT ROLE -->
+                            <div class="assign-screen assign-screen-login active" id="assignScreenLogin">
+                                <div class="assign-logo-container">
+                                    <i class="fa-solid fa-graduation-cap assign-logo-icon"></i>
+                                    <span class="assign-logo-text">VAU Portal</span>
+                                </div>
+                                <div class="assign-login-content">
+                                    <h4 class="assign-title">Assignment Submission & Grading</h4>
+                                    <p class="assign-subtitle">Select your role to access the portal</p>
+                                    
+                                    <div class="role-selector">
+                                        <button class="role-btn active" id="btnRoleStudent">
+                                            <i class="fa-solid fa-user-graduate"></i>
+                                            <span>Student</span>
+                                        </button>
+                                        <button class="role-btn" id="btnRoleLecturer">
+                                            <i class="fa-solid fa-chalkboard-user"></i>
+                                            <span>Lecturer</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="assign-form">
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-envelope"></i></span>
+                                            <input type="email" id="assignEmail" class="sim-input" value="student.saman@vau.ac.lk" readonly>
+                                        </div>
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-lock"></i></span>
+                                            <input type="password" id="assignPassword" class="sim-input" value="••••••••" readonly>
+                                        </div>
+                                        <button class="sim-btn sim-btn-primary" id="assignBtnLogin">
+                                            <span>Portal Login</span>
+                                            <div class="sim-btn-arrow-circle">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 2: STUDENT DASHBOARD -->
+                            <div class="assign-screen assign-screen-student" id="assignScreenStudent">
+                                <div class="assign-dash-header">
+                                    <div class="user-profile">
+                                        <i class="fa-solid fa-user-graduate"></i>
+                                        <div>
+                                            <span class="user-name">Saman Kumara</span>
+                                            <span class="user-role">Student (Vavuniya Uni)</span>
+                                        </div>
+                                    </div>
+                                    <button class="assign-logout-btn" id="assignStudentLogout" title="Logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    </button>
+                                </div>
+                                <div class="assign-dash-content">
+                                    <div class="dashboard-banner">
+                                        <h5>IT102: Advanced Programming</h5>
+                                        <p>Lab Assignment 04 - Due: <strong>Tomorrow, 11:59 PM</strong></p>
+                                    </div>
+                                    
+                                    <!-- File Upload Simulator -->
+                                    <div class="upload-area" id="uploadArea">
+                                        <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+                                        <p class="upload-text" id="uploadText">Drag & drop submission file</p>
+                                        <span class="upload-or" id="uploadOr">or</span>
+                                        <button class="btn-browse-file" id="btnBrowseFile">Select File</button>
+                                        
+                                        <!-- Uploaded file display -->
+                                        <div class="uploaded-file-info" id="uploadedFileInfo" style="display:none;">
+                                            <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                                            <span class="filename" id="uploadFilename">assignment_v4_final.pdf</span>
+                                            <span class="filesize">(1.2 MB)</span>
+                                            <button class="btn-remove-file" id="btnRemoveFile" type="button"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="sim-btn sim-btn-primary w-100 disabled" id="assignBtnSubmit" style="opacity: 0.5; pointer-events: none; margin-top: 10px;">
+                                        <span>Submit Assignment</span>
+                                        <div class="sim-btn-arrow-circle">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </button>
+                                    
+                                    <!-- Submission Success State -->
+                                    <div class="submit-success-state" id="submitSuccessState" style="display:none; width: 100%;">
+                                        <i class="fa-solid fa-circle-check success-icon"></i>
+                                        <h6>Assignment Submitted!</h6>
+                                        <p>Status: <span class="badge badge-success">Pending Evaluation</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 3: LECTURER DASHBOARD -->
+                            <div class="assign-screen assign-screen-lecturer" id="assignScreenLecturer">
+                                <div class="assign-dash-header">
+                                    <div class="user-profile">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                        <div>
+                                            <span class="user-name">Prof. A. Perera</span>
+                                            <span class="user-role">Lecturer (Dept. of IT)</span>
+                                        </div>
+                                    </div>
+                                    <button class="assign-logout-btn" id="assignLecturerLogout" title="Logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    </button>
+                                </div>
+                                <div class="assign-dash-content">
+                                    <div class="grading-panel">
+                                        <div class="grading-meta">
+                                            <span class="class-badge">IT102 - Lab 04</span>
+                                            <h5 style="margin: 5px 0 3px;">Student: Saman Kumara</h5>
+                                            <span class="view-submitted-doc">
+                                                <i class="fa-solid fa-file-pdf"></i> <span id="gradingDocName">assignment_v4_final.pdf</span>
+                                            </span>
+                                        </div>
+                                        
+                                        <!-- Grading Form -->
+                                        <div class="grading-form" id="gradingForm">
+                                            <div class="sim-input-group">
+                                                <span class="sim-input-icon"><i class="fa-solid fa-star"></i></span>
+                                                <input type="number" id="gradeInput" class="sim-input" placeholder="Enter Grade (0-100)" min="0" max="100" value="88">
+                                            </div>
+                                            <div class="sim-input-group">
+                                                <span class="sim-input-icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                                <textarea id="feedbackInput" class="sim-input sim-textarea" placeholder="Feedback..." style="padding-top: 10px;">Great implementation of OOP concepts. Well documented!</textarea>
+                                            </div>
+                                            <button class="sim-btn sim-btn-primary w-100" id="assignBtnGrade" style="margin-top: 10px;">
+                                                <span>Save Evaluation</span>
+                                                <div class="sim-btn-arrow-circle">
+                                                    <i class="fa-solid fa-bookmark"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        
+                                        <!-- Grading Success State -->
+                                        <div class="grading-success-state" id="gradingSuccessState" style="display:none; width: 100%;">
+                                            <i class="fa-solid fa-circle-check success-icon"></i>
+                                            <h6>Evaluation Saved!</h6>
+                                            <p>Grade: <strong id="savedGradeDisplay" style="color: var(--accent-cyan);">88/100</strong></p>
+                                            <p style="font-size: 0.6rem; margin-top: 4px;">Status: <span class="badge badge-success">Graded & Published</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Information & Quick Features Panel -->
+                <div class="simulator-info-panel">
+                    <div class="info-header">
+                        <span class="info-tag"><i class="fa-solid fa-graduation-cap"></i> Portal Simulator</span>
+                        <h3>Online Assignment System</h3>
+                        <p class="info-description">
+                            Experience the role-based flow of the Assignment Submission & Evaluation System. Try simulating file uploads as a student or evaluating submissions as a lecturer!
+                        </p>
+                    </div>
+                    
+                    <div class="info-features-list">
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+                            <div class="feature-text">
+                                <strong>Role-Based Portals</strong>
+                                <span>Switch between Student and Lecturer roles to view custom interfaces and operations tailored for each portal.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                            <div class="feature-text">
+                                <strong>Interactive File Submission</strong>
+                                <span>Simulate uploading assignment files as a student and submitting them instantly to the University server.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-signature"></i></div>
+                            <div class="feature-text">
+                                <strong>Lecturer Assessment & Feedback</strong>
+                                <span>As a lecturer, review submitted student documents, input marks/grades, and write constructive feedback with validation.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-quick-controls">
+                        <span class="controls-label">Jump to Screen:</span>
+                        <div class="controls-buttons">
+                            <button class="btn-ctrl-assign active" id="btnCtrlAssignLogin">1. Portal Login</button>
+                            <button class="btn-ctrl-assign" id="btnCtrlAssignStudent">2. Student Portal</button>
+                            <button class="btn-ctrl-assign" id="btnCtrlAssignLecturer">3. Lecturer Portal</button>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-tech-stack">
+                        <span class="tech-label">Technology Stack</span>
+                        <div class="tech-tags">
+                            <span>PHP (OOP)</span>
+                            <span>MySQL Database</span>
+                            <span>Bootstrap 5</span>
+                            <span>JavaScript (AJAX)</span>
+                            <span>Prepared Statements</span>
+                            <span>CSS Grid / Flexbox</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GemMate Interactive Simulator Modal -->
+    <div class="gemmate-modal" id="gemmateModal" aria-hidden="true" role="dialog">
+        <div class="gemmate-modal-backdrop" id="gemmateModalBackdrop"></div>
+        <div class="gemmate-modal-content glass-card">
+            <button class="gemmate-modal-close" id="gemmateModalClose" aria-label="Close Simulator">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="simulator-grid">
+                <!-- Left: Interactive Mobile Simulator -->
+                <div class="simulator-phone-wrapper">
+                    <div class="phone-mockup">
+                        <!-- Speaker & Camera Bezel (Dynamic Island) -->
+                        <div class="phone-dynamic-island"></div>
+                        <div class="phone-speaker"></div>
+                        
+                        <!-- Internal Screen -->
+                        <div class="phone-screen gemmate-screen-container">
+                            <!-- Status Bar -->
+                            <div class="phone-status-bar">
+                                <span class="phone-time" id="gemmatePhoneTime">09:12 PM</span>
+                                <div class="phone-status-icons">
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-battery-full"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 1: LOGIN (Based on user image) -->
+                            <div class="sim-screen gemmate-screen active" id="gemmateScreenLogin" style="background: #060814; justify-content: center; padding: 25px 15px;">
+                                <div class="gemmate-logo-wrapper">
+                                    <div class="gemmate-logo-box">
+                                        <!-- Logo icon: squircle wrapper with G and diamond -->
+                                        <svg viewBox="0 0 100 100" class="gemmate-logo-img">
+                                            <defs>
+                                                <linearGradient id="gemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                    <stop offset="0%" stop-color="#a855f7" />
+                                                    <stop offset="100%" stop-color="#3b82f6" />
+                                                </linearGradient>
+                                            </defs>
+                                            <rect x="10" y="10" width="80" height="80" rx="24" fill="#ffffff" />
+                                            <circle cx="50" cy="50" r="32" fill="url(#gemGrad)" />
+                                            <!-- Styled G with diamond inside -->
+                                            <path d="M50,30 A20,20 0 1,0 70,50 L50,50 L50,42 L78,42 C79,50 78,57 70,68 C62,77 46,75 35,66 C24,57 26,38 38,30 Z" fill="#ffffff" opacity="0.15" />
+                                            <!-- Diamond Path -->
+                                            <path d="M50,35 L62,47 L50,59 L38,47 Z" fill="#ffffff" />
+                                            <path d="M50,35 L50,59" stroke="rgba(255,255,255,0.4)" stroke-width="1" />
+                                            <path d="M38,47 L62,47" stroke="rgba(255,255,255,0.4)" stroke-width="1" />
+                                        </svg>
+                                    </div>
+                                    <h2 class="gemmate-app-title">GemMate</h2>
+                                    <span class="gemmate-app-subtitle">START YOUR GEM JOURNEY</span>
+                                </div>
+                                
+                                <div class="gemmate-login-card">
+                                    <div class="gemmate-card-header">
+                                        <div class="gemmate-welcome-icon">
+                                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="gemmate-card-title">Welcome Back</h3>
+                                            <p class="gemmate-card-subtitle">Sign in to continue trading</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="gemmate-form">
+                                        <div class="gemmate-input-group">
+                                            <span class="gemmate-input-icon"><i class="fa-solid fa-envelope"></i></span>
+                                            <input type="email" id="gemmateEmail" class="gemmate-input" placeholder="Email address" value="trader@gemmate.com">
+                                        </div>
+                                        
+                                        <div class="gemmate-input-group">
+                                            <span class="gemmate-input-icon"><i class="fa-solid fa-lock"></i></span>
+                                            <input type="password" id="gemmatePassword" class="gemmate-input" placeholder="Password" value="gemstonepass">
+                                            <span class="gemmate-password-toggle" id="gemmatePasswordToggle"><i class="fa-solid fa-eye"></i></span>
+                                        </div>
+                                        
+                                        <button class="gemmate-btn-submit" id="gemmateBtnLogin">Login</button>
+                                    </div>
+                                    
+                                    <div class="gemmate-card-footer">
+                                        Don't have an account? <span class="gemmate-signup-link">Sign Up</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 2: GEM MARKETPLACE -->
+                            <div class="sim-screen gemmate-screen" id="gemmateScreenMarket" style="background: #080b18; padding: 40px 10px 10px;">
+                                <div class="gemmate-market-header">
+                                    <div>
+                                        <span class="market-greeting">Discover Gems</span>
+                                        <h4 class="market-title">Marketplace</h4>
+                                    </div>
+                                    <div class="market-avatar">
+                                        <i class="fa-solid fa-user-ninja"></i>
+                                    </div>
+                                </div>
+                                
+                                <div class="gemmate-search-bar">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Search premium gemstones..." readonly>
+                                </div>
+                                
+                                <div class="gemmate-gems-scroll">
+                                    <!-- Gem Card 1 -->
+                                    <div class="gemmate-gem-card" id="gemCardBlueSapphire">
+                                        <div class="gem-card-img-wrapper" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(30, 58, 138, 0.4));">
+                                            <i class="fa-regular fa-gem gem-icon-blue"></i>
+                                            <span class="gem-badge-verified"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                                        </div>
+                                        <div class="gem-card-details">
+                                            <span class="gem-card-name">Blue Sapphire</span>
+                                            <div class="gem-card-meta">
+                                                <span class="gem-weight">2.45 ct</span>
+                                                <span class="gem-price">$3,200</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Gem Card 2 -->
+                                    <div class="gemmate-gem-card" id="gemCardRuby">
+                                        <div class="gem-card-img-wrapper" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(127, 29, 29, 0.4));">
+                                            <i class="fa-solid fa-gem gem-icon-red"></i>
+                                            <span class="gem-badge-verified"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                                        </div>
+                                        <div class="gem-card-details">
+                                            <span class="gem-card-name">Natural Ruby</span>
+                                            <div class="gem-card-meta">
+                                                <span class="gem-weight">1.80 ct</span>
+                                                <span class="gem-price">$2,500</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bottom Navbar Simulation -->
+                                <div class="gemmate-bottom-bar">
+                                    <button class="bottom-item active" id="gemTabMarket"><i class="fa-solid fa-shop"></i><span>Shop</span></button>
+                                    <button class="bottom-item" id="gemTabVerify"><i class="fa-solid fa-signature"></i><span>Verify</span></button>
+                                    <button class="bottom-item" id="gemTabChat"><i class="fa-solid fa-comments"></i><span>Chat</span></button>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 3: VERIFICATION SYSTEM -->
+                            <div class="sim-screen gemmate-screen" id="gemmateScreenVerify" style="background: #080b18; padding: 40px 10px 10px;">
+                                <div class="gemmate-market-header" style="margin-bottom: 12px;">
+                                    <div>
+                                        <span class="market-greeting">Authenticity</span>
+                                        <h4 class="market-title">Certificate Check</h4>
+                                    </div>
+                                    <button class="verify-back-btn" id="verifyBackToMarket"><i class="fa-solid fa-arrow-left"></i></button>
+                                </div>
+                                
+                                <div class="verify-container">
+                                    <div class="verify-input-panel" id="verifyInputPanel">
+                                        <p class="verify-hint">Scan gemstone certificate QR code or enter ID</p>
+                                        <div class="gemmate-input-group">
+                                            <span class="gemmate-input-icon"><i class="fa-solid fa-barcode"></i></span>
+                                            <input type="text" id="gemCertIdInput" class="gemmate-input" value="GM-9843-BL" style="font-family: monospace;">
+                                        </div>
+                                        <button class="gemmate-btn-submit" id="btnVerifyCert" style="margin-top: 10px;">Verify Certificate</button>
+                                    </div>
+                                    
+                                    <!-- Verification Animation -->
+                                    <div class="verify-loading-panel" id="verifyLoadingPanel" style="display: none;">
+                                        <div class="verify-spinner"></div>
+                                        <p>Connecting to decentralized gem registry...</p>
+                                    </div>
+                                    
+                                    <!-- Verification Result -->
+                                    <div class="verify-result-panel" id="verifyResultPanel" style="display: none;">
+                                        <div class="result-status-header">
+                                            <i class="fa-solid fa-shield-halved result-verified-icon"></i>
+                                            <h5>GENUINE CERTIFICATE</h5>
+                                            <span class="badge badge-success">Official Verification</span>
+                                        </div>
+                                        
+                                        <table class="verify-details-table">
+                                            <tr><td>Gem Type</td><td class="table-val" id="resGemType">Natural Blue Sapphire</td></tr>
+                                            <tr><td>Weight</td><td class="table-val" id="resGemWeight">2.45 carats</td></tr>
+                                            <tr><td>Origin</td><td class="table-val">Sri Lanka (Ratnapura)</td></tr>
+                                            <tr><td>Clarity</td><td class="table-val">VVS1 (Eye Clean)</td></tr>
+                                            <tr><td>Issuer</td><td class="table-val">VGA Laboratories</td></tr>
+                                        </table>
+                                        
+                                        <button class="gemmate-btn-submit" id="btnResetVerify" style="margin-top: 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #fff;">Verify Another</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="gemmate-bottom-bar">
+                                    <button class="bottom-item" id="gemTabMarket2"><i class="fa-solid fa-shop"></i><span>Shop</span></button>
+                                    <button class="bottom-item active" id="gemTabVerify2"><i class="fa-solid fa-signature"></i><span>Verify</span></button>
+                                    <button class="bottom-item" id="gemTabChat2"><i class="fa-solid fa-comments"></i><span>Chat</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Information & Quick Features Panel -->
+                <div class="simulator-info-panel">
+                    <div class="info-header">
+                        <span class="info-tag"><i class="fa-solid fa-mobile-screen-button"></i> Mobile Simulator</span>
+                        <h3>GemMate App</h3>
+                        <p class="info-description">
+                            Experience the interface of GemMate, a premium mobile marketplace for gemstones and authentic laboratory certificate verification. 
+                        </p>
+                    </div>
+                    
+                    <div class="info-features-list">
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(168, 85, 247, 0.15); color: #c084fc;"><i class="fa-solid fa-gem"></i></div>
+                            <div class="feature-text">
+                                <strong>Gemstone Trading Feed</strong>
+                                <span>Browse high-value verified gemstones on the feed, with status indicators showing evaluation from laboratory experts.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa;"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="feature-text">
+                                <strong>Certificate Authenticity Check</strong>
+                                <span>Input certificate IDs (like GM-9843-BL) to perform secure cryptographic query checks against blockchain/database registries.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(16, 185, 129, 0.15); color: #34d399;"><i class="fa-solid fa-comments"></i></div>
+                            <div class="feature-text">
+                                <strong>Real-time Buyer-Seller Chat</strong>
+                                <span>Simulate direct negotiation and expert verification assistance within the app simulator channels.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-quick-controls">
+                        <span class="controls-label">Jump to Screen:</span>
+                        <div class="controls-buttons">
+                            <button class="btn-ctrl-gem active" id="btnCtrlGemLogin">1. Login Screen</button>
+                            <button class="btn-ctrl-gem" id="btnCtrlGemMarket">2. Marketplace Feed</button>
+                            <button class="btn-ctrl-gem" id="btnCtrlGemVerify">3. Verification Scan</button>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-tech-stack">
+                        <span class="tech-label">Technology Stack</span>
+                        <div class="tech-tags">
+                            <span>React Native</span>
+                            <span>Expo Framework</span>
+                            <span>Firebase Firestore</span>
+                            <span>WebSockets API</span>
+                            <span>Cryptographic Hashes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hospital Management Interactive Simulator Modal -->
+    <div class="hospital-modal" id="hospitalModal" aria-hidden="true" role="dialog">
+        <div class="hospital-modal-backdrop" id="hospitalModalBackdrop"></div>
+        <div class="hospital-modal-content glass-card">
+            <button class="hospital-modal-close" id="hospitalModalClose" aria-label="Close Simulator">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="simulator-grid">
+                <!-- Left: Interactive Browser Simulator -->
+                <div class="simulator-browser-wrapper">
+                    <div class="browser-mockup">
+                        <!-- Browser Header/Toolbar -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="browser-address-bar">
+                                <i class="fa-solid fa-lock" style="color: #10b981;"></i>
+                                <span id="hospAddressText">lifecare-hospital.lk/portal</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Browser Screen Content -->
+                        <div class="browser-screen">
+                            <!-- SCREEN 1: LOGIN -->
+                            <div class="hosp-screen hosp-screen-login active" id="hospScreenLogin">
+                                <div class="hosp-logo-container">
+                                    <i class="fa-solid fa-square-h hosp-logo-icon"></i>
+                                    <span class="hosp-logo-text">Life Care Portal</span>
+                                </div>
+                                <div class="hosp-login-content">
+                                    <h4 class="hosp-title">Clinical Workflow Management</h4>
+                                    <p class="hosp-subtitle">Select role for Vavuniya Branch console</p>
+                                    
+                                    <div class="hosp-role-selector">
+                                        <button class="hosp-role-btn active" id="btnHospRoleReceptionist">
+                                            <i class="fa-solid fa-address-book"></i>
+                                            <span>Receptionist</span>
+                                        </button>
+                                        <button class="hosp-role-btn" id="btnHospRoleDoctor">
+                                            <i class="fa-solid fa-user-doctor"></i>
+                                            <span>Doctor / Specialist</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="hosp-form">
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-user"></i></span>
+                                            <input type="email" id="hospEmail" class="sim-input" value="receptionist.vavuniya@lifecare.lk" readonly>
+                                        </div>
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-lock"></i></span>
+                                            <input type="password" id="hospPassword" class="sim-input" value="••••••••" readonly>
+                                        </div>
+                                        <button class="sim-btn sim-btn-primary w-100" id="hospBtnLogin" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); border-color: #0ea5e9;">
+                                            <span>Enter Console</span>
+                                            <div class="sim-btn-arrow-circle">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- SCREEN 2: RECEPTIONIST DASHBOARD -->
+                            <div class="hosp-screen hosp-screen-reception" id="hospScreenReception">
+                                <div class="hosp-dash-header">
+                                    <div class="user-profile">
+                                        <i class="fa-solid fa-address-card" style="color: #0ea5e9;"></i>
+                                        <div>
+                                            <span class="user-name">Dilhani Perera</span>
+                                            <span class="user-role">Front Desk (Vavuniya Branch)</span>
+                                        </div>
+                                    </div>
+                                    <button class="hosp-logout-btn" id="hospReceptionLogout" title="Logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    </button>
+                                </div>
+                                <div class="hosp-dash-content">
+                                    <div class="hosp-banner">
+                                        <h5>Patient Registration & Booking</h5>
+                                        <p>Assign token and direct patient to doctor's queue</p>
+                                    </div>
+                                    
+                                    <!-- Booking Form -->
+                                    <div class="hosp-form-fields" id="hospBookingForm">
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-id-card"></i></span>
+                                            <input type="text" id="hospPatientName" class="sim-input" placeholder="Patient Name" value="Nimal Perera">
+                                        </div>
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-calendar-day"></i></span>
+                                            <input type="number" id="hospPatientAge" class="sim-input" placeholder="Age" value="38">
+                                        </div>
+                                        <div class="sim-input-group">
+                                            <span class="sim-input-icon"><i class="fa-solid fa-stethoscope"></i></span>
+                                            <select id="hospSelectDoctor" class="sim-input" style="background: #0d121f; border: 1px solid rgba(255,255,255,0.08); color:#fff; width:100%; border-radius:10px; height: 42px; padding: 0 12px 0 35px;">
+                                                <option value="Dr. K. Silva (Cardiologist)">Dr. K. Silva (Cardiologist)</option>
+                                                <option value="Dr. M. Rahuman (Pediatrician)">Dr. M. Rahuman (Pediatrician)</option>
+                                                <option value="Dr. S. Kumar (General Physician)">Dr. S. Kumar (General Physician)</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <button class="sim-btn sim-btn-primary w-100" id="btnHospRegister" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); border-color: #0ea5e9; margin-top: 8px;">
+                                            <span>Register & Book</span>
+                                            <div class="sim-btn-arrow-circle"><i class="fa-solid fa-check"></i></div>
+                                        </button>
+                                    </div>
+                                    
+                                    <!-- Booking Success state -->
+                                    <div class="hosp-success-state" id="hospBookingSuccess" style="display:none;">
+                                        <i class="fa-solid fa-circle-check success-icon" style="color: #0ea5e9;"></i>
+                                        <h6>Appointment Scheduled!</h6>
+                                        <p>Patient: <strong id="valBookingPatientName" style="color:#fff;">Nimal Perera</strong> (Age: <span id="valBookingPatientAge">38</span>)</p>
+                                        <p>Doctor: <span id="valBookingDoctor">Dr. K. Silva</span></p>
+                                        <div class="hosp-token-badge">QUEUE TOKEN: #12</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 3: DOCTOR DASHBOARD -->
+                            <div class="hosp-screen hosp-screen-doctor" id="hospScreenDoctor">
+                                <div class="hosp-dash-header">
+                                    <div class="user-profile">
+                                        <i class="fa-solid fa-user-md" style="color: #10b981;"></i>
+                                        <div>
+                                            <span class="user-name">Dr. K. Silva</span>
+                                            <span class="user-role">Cardiology Consultant</span>
+                                        </div>
+                                    </div>
+                                    <button class="hosp-logout-btn" id="hospDoctorLogout" title="Logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    </button>
+                                </div>
+                                <div class="hosp-dash-content">
+                                    <div class="hosp-panel">
+                                        <div class="patient-card-header">
+                                            <span class="hosp-class-badge">Active Queue (Token 12)</span>
+                                            <h5 style="margin: 5px 0 2px;">Patient: <span id="gradingPatientName">Nimal Perera</span></h5>
+                                            <p style="font-size: 0.65rem; color: var(--text-muted); margin:0;">Symptoms: Chest tightening, shortness of breath on exertion.</p>
+                                        </div>
+                                        
+                                        <!-- Medical Record Form -->
+                                        <div class="hosp-doctor-form" id="hospDoctorForm">
+                                            <div class="sim-input-group">
+                                                <span class="sim-input-icon"><i class="fa-solid fa-notes-medical"></i></span>
+                                                <input type="text" id="hospDiagnosis" class="sim-input" placeholder="Diagnosis / Observation" value="Mild Hypertension & Fatigue">
+                                            </div>
+                                            <div class="sim-input-group">
+                                                <span class="sim-input-icon"><i class="fa-solid fa-pills"></i></span>
+                                                <textarea id="hospPrescription" class="sim-input sim-textarea" placeholder="Medications..." style="padding-top: 10px;">Amlodipine 5mg daily. Low salt diet recommendation.</textarea>
+                                            </div>
+                                            
+                                            <button class="sim-btn sim-btn-primary w-100" id="btnHospSubmitConsultation" style="background: linear-gradient(135deg, #10b981, #059669); border-color: #10b981; margin-top: 8px;">
+                                                <span>Save Consultation & Bill</span>
+                                                <div class="sim-btn-arrow-circle"><i class="fa-solid fa-receipt"></i></div>
+                                            </button>
+                                        </div>
+                                        
+                                        <!-- Doctor Consultation Success -->
+                                        <div class="hosp-success-state" id="hospConsultationSuccess" style="display:none;">
+                                            <i class="fa-solid fa-file-invoice-dollar success-icon" style="color: #10b981; font-size: 2.2rem; margin-bottom:8px;"></i>
+                                            <h6>Records Submitted & Bill Generated!</h6>
+                                            <p>Patient: <strong style="color:#fff;" id="hospBillPatient">Nimal Perera</strong></p>
+                                            <div class="bill-breakdown">
+                                                <span>Consultation Fee: LKR 2,000</span>
+                                                <span>Pharmacy Charges: LKR 1,500</span>
+                                                <strong style="color: #10b981; font-size:0.75rem; margin-top: 4px; display:block;">Total Bill: LKR 3,500</strong>
+                                            </div>
+                                            <p style="font-size: 0.6rem; margin-top: 6px;">Status: <span class="badge badge-success">Billed & Queued for Pharmacy</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Information & Quick Features Panel -->
+                <div class="simulator-info-panel" style="border-left: 1px solid rgba(255,255,255,0.05);">
+                    <div class="info-header">
+                        <span class="info-tag"><i class="fa-solid fa-hospital"></i> Desktop Simulator</span>
+                        <h3>Hospital Console</h3>
+                        <p class="info-description">
+                            Experience clinical workflow automation for Life Care Hospital. Try registering new patients and scheduling appointments, or assessing patient history as a specialist!
+                        </p>
+                    </div>
+                    
+                    <div class="info-features-list">
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(14, 165, 233, 0.15); color: #38bdf8;"><i class="fa-solid fa-id-card"></i></div>
+                            <div class="feature-text">
+                                <strong>Patient Registration Modules</strong>
+                                <span>Input patient details, age, and dynamically assign queues. Automatic token routing distributes patients to respective departments.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(16, 185, 129, 0.15); color: #34d399;"><i class="fa-solid fa-notes-medical"></i></div>
+                            <div class="feature-text">
+                                <strong>Electronic Medical Records (EMR)</strong>
+                                <span>Secure consultation forms for doctors to save diagnosis records, check symptoms, and write dynamic prescriptions.</span>
+                            </div>
+                        </div>
+                        <div class="info-feature-item">
+                            <div class="feature-icon" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;"><i class="fa-solid fa-receipt"></i></div>
+                            <div class="feature-text">
+                                <strong>Automated Billing Generation</strong>
+                                <span>Calculates consultation fees and pharmacy prescriptions instantly upon clinical evaluation submission.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-quick-controls">
+                        <span class="controls-label">Jump to Screen:</span>
+                        <div class="controls-buttons">
+                            <button class="btn-ctrl-hosp active" id="btnCtrlHospLogin">1. Login Console</button>
+                            <button class="btn-ctrl-hosp" id="btnCtrlHospReception">2. Front Desk</button>
+                            <button class="btn-ctrl-hosp" id="btnCtrlHospDoctor">3. Doctor Panel</button>
+                        </div>
+                    </div>
+                    
+                    <div class="simulator-tech-stack">
+                        <span class="tech-label">Technology Stack</span>
+                        <div class="tech-tags">
+                            <span>C# (.NET Core)</span>
+                            <span>MS SQL Server</span>
+                            <span>Windows Forms / WPF</span>
+                            <span>Entity Framework</span>
+                            <span>LINQ Queries</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Antigravity Premium Custom Cursor Elements -->
+    <div class="custom-cursor-glow-wrapper" id="customCursorGlow">
+        <div class="custom-cursor-glow-inner"></div>
+    </div>
+    <div class="custom-cursor-outline-wrapper" id="customCursorOutline">
+        <div class="custom-cursor-outline-inner"></div>
+    </div>
+    <div class="custom-cursor-dot-wrapper" id="customCursorDot">
+        <div class="custom-cursor-dot-inner"></div>
+    </div>
+    <div class="custom-cursor-particle-wrapper" id="customCursorParticle1">
+        <div class="custom-cursor-particle-inner p1-inner"></div>
+    </div>
+    <div class="custom-cursor-particle-wrapper" id="customCursorParticle2">
+        <div class="custom-cursor-particle-inner p2-inner"></div>
+    </div>
+    <div class="custom-cursor-particle-wrapper" id="customCursorParticle3">
+        <div class="custom-cursor-particle-inner p3-inner"></div>
+    </div>
+
+    <!-- Theme Switcher Widget -->
+    <div class="theme-switcher-container" id="themeSwitcher">
+        <button class="theme-switcher-toggle" id="themeSwitcherToggle" aria-label="Switch Theme">
+            <i class="fa-solid fa-palette"></i>
+        </button>
+        <div class="theme-switcher-panel">
+            <div class="theme-option active" data-theme="ocean" data-label="Ocean Teal"></div>
+            <div class="theme-option" data-theme="violet" data-label="Cyberpunk Violet"></div>
+            <div class="theme-option" data-theme="blue" data-label="Royal Blue"></div>
+            <div class="theme-option" data-theme="rose" data-label="Sunset Rose"></div>
+            <div class="theme-option" data-theme="green" data-label="Emerald Green"></div>
+            <div class="theme-option" data-theme="amber" data-label="Amber Gold"></div>
+        </div>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+

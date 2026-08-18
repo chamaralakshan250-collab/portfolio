@@ -5,10 +5,10 @@
     --bg-dark: #0b111e;
     --bg-card: rgba(20, 28, 45, 0.55);
     --bg-card-hover: rgba(28, 38, 60, 0.7);
-    --primary-violet: #f59e0b;
-    --primary-violet-rgb: 245, 158, 11;
-    --accent-cyan: #f97316;
-    --accent-cyan-rgb: 249, 115, 22;
+    --primary-violet: #0d9488;
+    --primary-violet-rgb: 13, 148, 136;
+    --accent-cyan: #0284c7;
+    --accent-cyan-rgb: 2, 132, 199;
     --text-light: #f1f5f9;
     --text-muted: #94a3b8;
     --border-color: rgba(var(--primary-violet-rgb), 0.18);
